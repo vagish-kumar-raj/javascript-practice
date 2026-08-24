@@ -1,3 +1,3 @@
-# adventure-game
+# The Lost Kingdom
 
-My text adventure game from JavaScript Starter Kit
+
