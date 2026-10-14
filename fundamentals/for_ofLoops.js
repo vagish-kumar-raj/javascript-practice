@@ -5,10 +5,10 @@ let marks = [
 let sum = 0;
 
 for (let M of marks) {
-  console.log((marks.indexOf(M)+1), M)
+  console.log(marks.indexOf(M) + 1, M);
   sum = sum + M;
 }
 
-console.log('Class Score: '+ sum + '/2600');
+console.log('Class Score: ' + sum + '/2600');
 let avg = sum / 26;
-console.log('Average Score of class:'+ avg + '/100')
+console.log('Average Score of class:' + avg + '/100');
