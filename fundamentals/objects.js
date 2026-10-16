@@ -4,7 +4,7 @@ let countries = {
   },
   India: {
     Leader: 'Modi',
-    Capital: 'New Delhi',
+    Capital: 'Delhi',
     Currency: 'INR',
   },
   USA: {
@@ -15,3 +15,19 @@ let countries = {
 };
 
 console.log(countries.India.Capital);
+
+countries.India.Capital = 'New Delhi';
+
+console.log(countries.India.Capital);
+
+console.log('\n-------------------------\n')
+
+let blackcoffee = [
+  { name: 'Instant Coffee Powder', qty: '10 - 20 grams' },
+  { name: 'Hot Water', qty: '200 mL' },
+  { name: 'Optional: Suger', qty: 'Depending upon your taste' },
+];
+
+for (let ingredients of blackcoffee) {
+  console.log(ingredients.name);
+}
