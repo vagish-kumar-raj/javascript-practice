@@ -1,4 +1,4 @@
-let abc = [1 , 22.1 , 'Ab' , true]
+let abc = [1, 22.1, 'Ab', true];
 // Index : 0 ,    1 ,    2 ,    3
 console.log(abc);
 console.log(abc.length); // Shows total no. of items in array abc = 4
